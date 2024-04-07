@@ -1,11 +1,17 @@
-import './App.css';
+import React from 'react';
+import Body from './components/Body';
 
-function App() {
+const App = () => {
+
+  console.log('<Body/>:', <Body/>); // Log <Body/> to console
   return (
-    <div className=" text-4xl bg-slate-500 font-bold">
-      helloo hello 
+    <div>
+      <Body/>
     </div>
   );
 }
 
 export default App;
+
+
+
